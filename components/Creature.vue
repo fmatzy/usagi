@@ -33,7 +33,7 @@ export default class Creature extends Vue {
       left: (this.position.x - this.image.size.width / 2) + "px",
       position: "absolute",
       width: this.image.size.width + "px",
-      hight: this.image.size.height + "px",
+      height: this.image.size.height + "px",
     }
   }
 
