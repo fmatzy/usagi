@@ -65,10 +65,15 @@ module.exports = {
   },
   modules: [
     "@nuxtjs/axios",
+    "@nuxtjs/pwa",
     "~/modules/typescript.js",
     ['@nuxtjs/google-analytics', {
       id: "UA-117437753-4"
     }],
   ],
-  axios: {}
+  axios: {},
+  manifest: {
+    name: "Usagi ga pyon!",
+    lang: "ja",
+  },
 }
