@@ -1,3 +1,9 @@
+<!--
+  Portions are:
+  Copyright (c) 2016 ICS INC.
+  Originally under MIT License
+  https://github.com/ics-creative/160311_css3_animation
+-->
 <template>
   <div :style="styleObject" class="creature" :class="{touched: touched, inverse: inverse}"
     @click.stop="touch">
