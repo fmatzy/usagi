@@ -1,10 +1,11 @@
 {
-  "name": "hase-chimera",
+  "name": "usagi",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@nuxtjs/axios": "^5.0.0",
     "@nuxtjs/google-analytics": "^2.0.2",
+    "@nuxtjs/pwa": "^2.6.0",
     "nuxt": "^1.3.0",
     "nuxt-property-decorator": "^1.2.0",
     "vuex-class": "^0.3.0"
