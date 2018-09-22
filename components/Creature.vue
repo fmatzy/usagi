@@ -1,8 +1,8 @@
 <!--
   Portions are:
   Copyright (c) 2016 ICS INC.
-  Originally under MIT License
-  https://github.com/ics-creative/160311_css3_animation
+  Released under MIT License
+  https://github.com/ics-creative/160311_css3_animation/blob/master/LICENSE
 -->
 <template>
   <div :style="styleObject" class="creature" :class="{touched: touched, inverse: inverse}"
